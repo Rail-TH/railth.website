@@ -141,10 +141,6 @@ a {
     margin-bottom: 24px;
 }
 
-.h {
-    margin-left: -410px;
-}
-
 @keyframes anim{
     from {
         background-color: #4d4d4d;
