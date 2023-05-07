@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background-color: #0a0a0a;
+    background-color: #1d1d1d;
 }
 
 .home_page {
@@ -14,7 +14,7 @@ body {
     border-radius: 15px;
     padding-bottom: 40px;
     margin-bottom: 24px;
-    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
 }
 
 .main_name{
@@ -80,7 +80,7 @@ label {
     font-size: 32px;
     text-align: center;
     line-height: 5px;
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
     cursor: pointer;
 }
 
