@@ -8,6 +8,7 @@ body {
 
 .home_page {
     margin-left: auto;
+    margin-top: 24px;
     margin-right: auto;
     background-color: rgb(32, 32, 32);
     width: 1000px;
@@ -15,6 +16,7 @@ body {
     padding-bottom: 40px;
     margin-bottom: 24px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
+    height: 1170px;
 }
 
 .main_name{
