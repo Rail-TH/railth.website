@@ -205,12 +205,12 @@ video {
         margin-right: 0;
     }
     .avatar{
-        height: 175px;
+        height: 222px;
     }
     .teg_name, .mini_desc {
-        margin-left: 260px;
+        margin-left: 320px;
         font-size: 26px;
-        top: -140px;
+        top: -160px;
     }
 
     .main_name {
@@ -270,10 +270,10 @@ video {
         margin-right: 0;
     }
     .avatar{
-        height: 185px;
+        height: 222px;
     }
     .teg_name, .mini_desc {
-        margin-left: 260px;
+        margin-left: 320px;
         font-size: 31px;
         top: -160px;
     }
