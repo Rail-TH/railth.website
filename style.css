@@ -199,9 +199,28 @@ video {
 
 @media (max-width: 640px) {
     .home_page {
-        height: 2000px;
+        height: 4000px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
+    }
+    .avatar{
+        height: 175px;
+    }
+    .teg_name, .mini_desc {
+        margin-left: 260px;
+        font-size: 25px;
+        top: -140px;
+    }
+
+    .main_name {
+        font-size: 28px;
+    }
+
+    .desc{
+        font-size: 25px;
+    }
+    label {
+        height: 120px;
     }
 }
