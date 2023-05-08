@@ -317,3 +317,68 @@ video {
         width: 583px;
     }
 }
+
+@media (max-width: 320px) {
+    .home_page {
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .avatar{
+        height: 222px;
+    }
+    .teg_name, .mini_desc {
+        margin-left: 320px;
+        font-size: 31px;
+        top: -160px;
+    }
+
+    .main_name {
+        font-size: 34px;
+    }
+
+    .desc{
+        font-size: 31px;
+    }
+    label {
+        height: 160px;
+        text-align: left;
+        padding-left: 120px;
+        width: 800px;
+        font-size: 38px;
+    }
+
+    .label_name {
+        padding-top: 60px;
+        padding-left: 35px;
+    }
+
+    .label_desc {
+        padding-left: 35px;
+        font-size: 22px;
+    }
+    .port_label_name {
+        padding-top: 80px;
+    }
+
+    .ico {
+        margin-top: 48px;
+        width: 70px;
+        margin-left: -75px;
+    }
+
+    video {
+        height: 480px;
+    }
+
+    .pic_desc {
+        font-size: 31px;
+        bottom: 97px;
+        width: 318px;
+        left: 100px;
+    }
+
+    .pic_desc_2 {
+        width: 583px;
+    }
+}
