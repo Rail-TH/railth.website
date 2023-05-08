@@ -189,3 +189,19 @@ video {
     font-size: 18px;
     color: #bbbbbb;
 }
+
+@media (max-width: 990px) {
+    .home_page {
+        height: 100%;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .home_page {
+        height: 2000px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
