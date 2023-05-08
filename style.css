@@ -199,7 +199,7 @@ video {
 
 @media (max-width: 640px) {
     .home_page {
-        height: 2000px;
+        height: 1450px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
@@ -263,7 +263,7 @@ video {
 
 @media (max-width: 375px) {
     .home_page {
-        height: 2000px;
+        height: 1640px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
@@ -318,11 +318,11 @@ video {
     .pic_desc {
         font-size: 29px;
         bottom: 97px;
-        width: 274px;
+        width: 318px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 503px;
+        width: 583px;
     }
 }
