@@ -263,7 +263,7 @@ video {
 
 @media (max-width: 375px) {
     .home_page {
-        height: 1640px;
+        height: 1720px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
@@ -285,7 +285,7 @@ video {
         font-size: 29px;
     }
     label {
-        height: 140px;
+        height: 160px;
         text-align: left;
         padding-left: 120px;
         width: 800px;
@@ -293,7 +293,7 @@ video {
     }
 
     .label_name {
-        padding-top: 52px;
+        padding-top: 60px;
         padding-left: 35px;
     }
 
@@ -302,11 +302,11 @@ video {
         font-size: 22px;
     }
     .port_label_name {
-        padding-top: 70px;
+        padding-top: 80px;
     }
 
     .ico {
-        margin-top: 36px;
+        margin-top: 48px;
         width: 70px;
         margin-left: -75px;
     }
