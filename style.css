@@ -209,16 +209,16 @@ video {
     }
     .teg_name, .mini_desc {
         margin-left: 260px;
-        font-size: 25px;
+        font-size: 26px;
         top: -140px;
     }
 
     .main_name {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .desc{
-        font-size: 25px;
+        font-size: 27px;
     }
     label {
         height: 160px;
@@ -234,7 +234,7 @@ video {
 
     .label_desc {
         padding-left: 35px;
-        font-size: 22px;
+        font-size: 24px;
     }
     .port_label_name {
         padding-top: 80px;
@@ -251,7 +251,7 @@ video {
     }
 
     .pic_desc {
-        font-size: 25px;
+        font-size: 27px;
         bottom: 97px;
         width: 274px;
         left: 100px;
@@ -274,23 +274,23 @@ video {
     }
     .teg_name, .mini_desc {
         margin-left: 260px;
-        font-size: 29px;
+        font-size: 31px;
         top: -160px;
     }
 
     .main_name {
-        font-size: 32px;
+        font-size: 34px;
     }
 
     .desc{
-        font-size: 29px;
+        font-size: 31px;
     }
     label {
         height: 160px;
         text-align: left;
         padding-left: 120px;
         width: 800px;
-        font-size: 36px;
+        font-size: 38px;
     }
 
     .label_name {
@@ -317,7 +317,7 @@ video {
     }
 
     .pic_desc {
-        font-size: 29px;
+        font-size: 31px;
         bottom: 97px;
         width: 318px;
         left: 100px;
