@@ -199,7 +199,7 @@ video {
 
 @media (max-width: 640px) {
     .home_page {
-        height: 1450px;
+        height: 1610px;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
@@ -228,20 +228,21 @@ video {
     }
 
     .label_name {
-        padding-top: 40px;
-        padding-left: 20px;
+        padding-top: 60px;
+        padding-left: 35px;
     }
 
     .label_desc {
-        padding-left: 20px;
+        padding-left: 35px;
+        font-size: 22px;
     }
     .port_label_name {
-        padding-top: 59px;
+        padding-top: 80px;
     }
 
     .ico {
-        margin-top: 30px;
-        width: 60px;
+        margin-top: 48px;
+        width: 70px;
         margin-left: -75px;
     }
 
