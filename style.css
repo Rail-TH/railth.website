@@ -19,6 +19,7 @@ body {
 }
 
 .main_name{
+    margin: 0;
     text-align: center;
     color: white;
     padding-top: 50px;
@@ -30,6 +31,15 @@ body {
     border-radius: 50%;
     height: 125px;
     margin-left: 50px;
+    width: 125px;
+}
+
+.avatar:hover {
+    animation: avatar_anim 0.3s forwards;
+}
+
+.avatar:not(:hover) {
+    animation: leave_avatar_anim 0.3s forwards;
 }
 
 .teg_name {
@@ -137,6 +147,26 @@ a {
     }
 }
 
+@keyframes avatar_anim{
+    from {
+        transform: scale(1);
+    }
+    
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes leave_avatar_anim{
+    from {
+        transform: scale(1.05);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
 @keyframes leave-anim{
     from {
         background-color: #494949;
@@ -184,7 +214,6 @@ video {
 
 @media (max-width: 990px) {
     .home_page {
-        height: 100%;
         margin-bottom: 0;
     }
 
@@ -201,6 +230,7 @@ video {
     }
     .avatar{
         height: 222px;
+        width: 222px;
     }
     .teg_name, .mini_desc {
         margin-left: 320px;
@@ -265,6 +295,7 @@ video {
     }
     .avatar{
         height: 222px;
+        width: 222px;
     }
     .teg_name, .mini_desc {
         margin-left: 320px;
@@ -330,6 +361,7 @@ video {
     }
     .avatar{
         height: 222px;
+        width: 222px;
     }
     .teg_name, .mini_desc {
         margin-left: 320px;
