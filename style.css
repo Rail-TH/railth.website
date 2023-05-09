@@ -187,6 +187,10 @@ video {
         height: 100%;
         margin-bottom: 0;
     }
+
+    main {
+        width: 1000px;
+    }
 }
 
 @media (max-width: 640px) {
