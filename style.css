@@ -131,18 +131,17 @@ a {
 }
 
 .port {
-    height: 1150px;
     padding-top: 50px;
-    padding-bottom: 125px;
+    padding-bottom: 25px;
 }
 
 @keyframes anim{
     from {
-        background-color: #4d4d4d;
+        background-color: #3d3d3d;
         transform: scale(1);
     }
     to {
-        background-color: #494949;
+        background-color: #444444;
         transform: scale(1.03);
     }
 }
@@ -169,11 +168,11 @@ a {
 
 @keyframes leave-anim{
     from {
-        background-color: #494949;
+        background-color: #444444;
         transform: scale(1.03);
     }
     to {
-        background-color: #4d4d4d;
+        background-color: #3d3d3d;
         transform: scale(1);
     }
 }
@@ -278,12 +277,12 @@ video {
     .pic_desc {
         font-size: 27px;
         bottom: 97px;
-        width: 274px;
+        width: 296px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 503px;
+        width: 543px;
     }
 }
 
@@ -344,12 +343,12 @@ video {
     .pic_desc {
         font-size: 31px;
         bottom: 97px;
-        width: 318px;
+        width: 340px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 583px;
+        width: 623px;
     }
 }
 
@@ -410,11 +409,11 @@ video {
     .pic_desc {
         font-size: 31px;
         bottom: 97px;
-        width: 318px;
+        width: 340px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 583px;
+        width: 623px;
     }
 }
