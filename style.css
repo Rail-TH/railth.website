@@ -83,7 +83,8 @@ input {
     display: none;
 }
 
-label {
+a{
+    text-decoration: none;
     display: block;
     width: 900px;
     height: 100px;
@@ -98,28 +99,29 @@ label {
     line-height: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
     cursor: pointer;
+    margin-top: 83px;
 }
 
-.label_name {
+.portfolio_button {
+    margin-top: 0px;
+}
+
+.button_name {
     padding-top: 32px;
 }
 
-.port_label_name {
+.port_button_name {
     padding-top: 48px;
 }
 
-label:hover{
+a:hover{
     animation: anim 0.2s forwards;
     animation-timing-function: ease;
 }
 
-label:not(:hover) {
+a:not(:hover) {
     animation: leave-anim 0.2s forwards;
     animation-timing-function: ease;
-}
-
-a {
-    text-decoration: none;
 }
 
 .ico {
@@ -129,13 +131,8 @@ a {
     width: 50px;
 }
 
-.button {
-    margin-top: 83px;
-}
-
 .port {
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 1px;
 }
 
 @keyframes anim{
@@ -209,7 +206,7 @@ video {
     width: 362px;
 }
 
-.label_desc {
+.button_desc {
     font-size: 18px;
     color: #bbbbbb;
 }
@@ -247,23 +244,23 @@ video {
     .desc{
         font-size: 27px;
     }
-    label {
+    a {
         height: 160px;
         text-align: left;
         padding-left: 120px;
         width: 800px;
     }
 
-    .label_name {
+    .button_name {
         padding-top: 60px;
         padding-left: 35px;
     }
 
-    .label_desc {
+    .button_desc {
         padding-left: 35px;
         font-size: 24px;
     }
-    .port_label_name {
+    .port_button_name {
         padding-top: 80px;
     }
 
@@ -312,7 +309,7 @@ video {
     .desc{
         font-size: 31px;
     }
-    label {
+    a {
         height: 160px;
         text-align: left;
         padding-left: 120px;
@@ -320,16 +317,16 @@ video {
         font-size: 38px;
     }
 
-    .label_name {
+    .button_name {
         padding-top: 60px;
         padding-left: 35px;
     }
 
-    .label_desc {
+    .button_desc {
         padding-left: 35px;
         font-size: 22px;
     }
-    .port_label_name {
+    .port_button_name {
         padding-top: 80px;
     }
 
@@ -378,7 +375,7 @@ video {
     .desc{
         font-size: 31px;
     }
-    label {
+    a {
         height: 160px;
         text-align: left;
         padding-left: 120px;
@@ -386,16 +383,16 @@ video {
         font-size: 38px;
     }
 
-    .label_name {
+    .button_name {
         padding-top: 60px;
         padding-left: 35px;
     }
 
-    .label_desc {
+    .button_desc {
         padding-left: 35px;
         font-size: 22px;
     }
-    .port_label_name {
+    .port_button_name {
         padding-top: 80px;
     }
 
