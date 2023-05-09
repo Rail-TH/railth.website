@@ -3,7 +3,10 @@
 
 body {
     margin: 0;
-    background-color: #1d1d1d;
+    background-image: url(img/1670126248_3-61\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .home_page {
