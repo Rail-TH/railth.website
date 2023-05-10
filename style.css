@@ -74,7 +74,7 @@ body {
     font-weight: normal;
     position: relative;
     top: 83px;
-    left:50px;
+    margin-left: 30px;
     width: 936px;
     padding-bottom: 100px;
 }
@@ -107,11 +107,23 @@ a{
 }
 
 .button_name {
-    padding-top: 32px;
+    position: absolute;
+    top: 3px;
+    width: 100%;
 }
 
 .port_button_name {
-    padding-top: 48px;
+    top: 17px;
+}
+
+.button_desc {
+    position: absolute;
+    top: 52px;
+    left: auto;
+    right: auto;
+    width: 100%;
+    font-size: 18px;
+    color: #bbbbbb;
 }
 
 a:hover{
@@ -126,9 +138,8 @@ a:not(:hover) {
 
 .ico {
     position: absolute;
-    margin-left: -410px;
-    margin-top: 26px;
-    width: 50px;
+    left: 50px;
+    top: 27px;
 }
 
 .port {
@@ -206,68 +217,65 @@ video {
     width: 362px;
 }
 
-.button_desc {
-    font-size: 18px;
-    color: #bbbbbb;
-}
-
 @media (max-width: 990px) {
     .home_page {
         margin-bottom: 0;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        width: 90vw;
+    }
+
+    .desc {
+        width: 90vw;
     }
 
     main {
-        width: 1000px;
+        width: 100%;
     }
+
 }
 
-@media (max-width: 640px) {
+@media (max-width: 620px) {
     .home_page {
         margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .avatar{
-        height: 222px;
-        width: 222px;
-    }
-    .teg_name, .mini_desc {
-        margin-left: 320px;
-        font-size: 26px;
-        top: -160px;
+    main {
+        width: 100%;
     }
 
-    .main_name {
-        font-size: 30px;
+    .avatar {
+        margin-top: 35px;
     }
 
-    .desc{
-        font-size: 27px;
-    }
     a {
-        height: 160px;
-        text-align: left;
-        padding-left: 120px;
-        width: 800px;
+        width: 90vw;
     }
 
-    .button_name {
-        padding-top: 60px;
-        padding-left: 35px;
+    .button_name{
+        position: static;
+        text-align: left;
+        width: 60%;
+        padding-top: 49px;
+        padding-left: 122px;
     }
 
     .button_desc {
-        padding-left: 35px;
-        font-size: 24px;
-    }
-    .port_button_name {
-        padding-top: 80px;
+        display: none;
     }
 
-    .ico {
-        margin-top: 48px;
-        width: 70px;
-        margin-left: -75px;
+    .desc {
+        width: 80vw;
+    }
+
+    .port_button_name {
+        top: 17px;
     }
 
     video {
@@ -286,54 +294,54 @@ video {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .home_page {
         margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .avatar{
-        height: 222px;
-        width: 222px;
-    }
-    .teg_name, .mini_desc {
-        margin-left: 320px;
-        font-size: 31px;
-        top: -160px;
+    main {
+        width: 100%;
     }
 
-    .main_name {
-        font-size: 34px;
+    .avatar {
+        margin-top: 35px;
     }
 
-    .desc{
-        font-size: 31px;
-    }
     a {
-        height: 160px;
-        text-align: left;
-        padding-left: 120px;
-        width: 800px;
-        font-size: 38px;
+        width: 90vw;
+        margin-top: 40px;
     }
 
-    .button_name {
-        padding-top: 60px;
-        padding-left: 35px;
+    .portfolio_button {
+        margin-top: -80px;
+    }
+
+    .teg_name {
+        width: 20vw;
+    }
+
+    .button_name{
+        position: static;
+        text-align: left;
+        width: 60%;
+        padding-top: 49px;
+        padding-left: 122px;
     }
 
     .button_desc {
-        padding-left: 35px;
-        font-size: 22px;
-    }
-    .port_button_name {
-        padding-top: 80px;
+        display: none;
     }
 
-    .ico {
-        margin-top: 48px;
-        width: 70px;
-        margin-left: -75px;
+    .desc {
+        width: 80vw;
+        top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .port_button_name {
+        top: 17px;
     }
 
     video {
@@ -341,65 +349,79 @@ video {
     }
 
     .pic_desc {
-        font-size: 31px;
+        font-size: 27px;
         bottom: 97px;
-        width: 340px;
+        width: 296px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 623px;
+        width: 543px;
     }
 }
 
 @media (max-width: 320px) {
     .home_page {
         margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .avatar{
-        height: 222px;
-        width: 222px;
-    }
-    .teg_name, .mini_desc {
-        margin-left: 320px;
-        font-size: 31px;
-        top: -160px;
+    main {
+        width: 100%;
     }
 
-    .main_name {
-        font-size: 34px;
+    .avatar {
+        margin-top: 35px;
     }
 
-    .desc{
-        font-size: 31px;
-    }
     a {
-        height: 160px;
-        text-align: left;
-        padding-left: 120px;
-        width: 800px;
-        font-size: 38px;
+        width: 90vw;
+        margin-top: 40px;
     }
 
-    .button_name {
-        padding-top: 60px;
-        padding-left: 35px;
+    .avatar {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .teg_name, .mini_desc {
+        margin-left: 130px;
+    }
+
+    .portfolio_button {
+        margin-top: -80px;
+    }
+
+    .teg_name {
+        width: 20vw;
+    }
+
+    .button_name{
+        position: static;
+        text-align: left;
+        width: 60%;
+        padding-top: 49px;
+        padding-left: 92px;
     }
 
     .button_desc {
-        padding-left: 35px;
-        font-size: 22px;
-    }
-    .port_button_name {
-        padding-top: 80px;
+        display: none;
     }
 
     .ico {
-        margin-top: 48px;
-        width: 70px;
-        margin-left: -75px;
+        left: 20px;
+    }
+
+    .desc {
+        width: 80vw;
+        top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .port_button_name {
+        top: 17px;
     }
 
     video {
@@ -407,13 +429,13 @@ video {
     }
 
     .pic_desc {
-        font-size: 31px;
+        font-size: 27px;
         bottom: 97px;
-        width: 340px;
+        width: 296px;
         left: 100px;
     }
 
     .pic_desc_2 {
-        width: 623px;
+        width: 543px;
     }
 }
