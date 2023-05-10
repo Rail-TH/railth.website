@@ -236,6 +236,10 @@ video {
     main {
         width: 100%;
     }
+    
+    .teg_name, .mini_desc {
+        font-size: 18px;
+    }
 
 }
 
