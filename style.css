@@ -127,6 +127,7 @@ a{
 }
 
 a:hover{
+    @media #{$m}
     animation: anim 0.2s forwards;
     animation-timing-function: ease;
 }
@@ -144,6 +145,35 @@ a:not(:hover) {
 
 .port {
     padding-top: 1px;
+}
+
+div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    width: 100%;
+    display: inline;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.pic_desc {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    background-color: #494949;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.253);
+    opacity: 0.7;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    width: 20vw;
 }
 
 @keyframes anim{
@@ -188,35 +218,6 @@ a:not(:hover) {
     }
 }
 
-video {
-    height: 418px;
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-}
-
-.pic_desc {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    bottom: 80px;
-    left: 150px;
-    background-color: #494949;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.253);
-    opacity: 0.7;
-    width: 197px
-}
-
-.pic_desc_2 {
-    width: 362px;
-}
-
 @media (max-width: 990px) {
     .home_page {
         margin-bottom: 0;
@@ -236,11 +237,14 @@ video {
     main {
         width: 100%;
     }
-    
+
     .teg_name, .mini_desc {
         font-size: 18px;
     }
 
+    .pic_desc {
+        bottom: 14vh;
+    }
 }
 
 @media (max-width: 620px) {
@@ -282,19 +286,14 @@ video {
         top: 17px;
     }
 
-    video {
-        height: 480px;
+    .teg_name, .mini_desc {
+        font-size: 18px;
     }
 
     .pic_desc {
-        font-size: 27px;
-        bottom: 97px;
-        width: 296px;
-        left: 100px;
-    }
-
-    .pic_desc_2 {
-        width: 543px;
+        font-size: 13px;
+        width: 50vw;
+        bottom: 60px;
     }
 }
 
@@ -347,20 +346,11 @@ video {
     .port_button_name {
         top: 17px;
     }
-
-    video {
-        height: 480px;
-    }
-
+    
     .pic_desc {
-        font-size: 27px;
-        bottom: 97px;
-        width: 296px;
-        left: 100px;
-    }
-
-    .pic_desc_2 {
-        width: 543px;
+        bottom: 60px;
+        font-size: 13px;
+        width: 50vw;
     }
 }
 
@@ -426,20 +416,5 @@ video {
 
     .port_button_name {
         top: 17px;
-    }
-
-    video {
-        height: 480px;
-    }
-
-    .pic_desc {
-        font-size: 27px;
-        bottom: 97px;
-        width: 296px;
-        left: 100px;
-    }
-
-    .pic_desc_2 {
-        width: 543px;
     }
 }
