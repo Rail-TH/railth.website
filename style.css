@@ -229,6 +229,10 @@ video {
     a {
         width: 90vw;
     }
+    
+    .avatar {
+        margin-left: 25px;
+    }
 
     .desc {
         width: 90vw;
