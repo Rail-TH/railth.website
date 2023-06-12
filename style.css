@@ -54,14 +54,11 @@ body {
     height: 125px;
     margin-left: 50px;
     width: 125px;
+    transition: 0.2s;
 }
 
 .avatar:hover {
-    animation: avatar_anim 0.3s forwards;
-}
-
-.avatar:not(:hover) {
-    animation: leave_avatar_anim 0.3s forwards;
+    transform: scale(1.05);
 }
 
 .teg_name {
@@ -104,20 +101,21 @@ input {
 
 .button{
     display: block;
+    gap: 11vw;
+    align-items: center;
     width: 900px;
     height: 100px;
-    background-color: #4d4d4d;
+    background-color: #3d3d3d;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
     color: #e7e7e7;
     font-size: 32px;
-    text-align: center;
-    line-height: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
     cursor: pointer;
     margin-top: 83px;
+    transition: 0.2s;
 }
 
 a {
@@ -131,8 +129,8 @@ a {
 }
 
 .button_name {
-    position: absolute;
-    top: 3px;
+    margin: 0;
+    text-align: center;
     width: 100%;
 }
 
@@ -141,27 +139,20 @@ a {
 }
 
 .button_desc {
-    position: absolute;
-    top: 52px;
-    left: auto;
-    right: auto;
     width: 100%;
+    margin: 0;
+    text-align: center;
     font-size: 18px;
     color: #bbbbbb;
 }
 
 .button:hover{
-    animation: anim 0.2s forwards;
-    animation-timing-function: ease;
-}
-
-.button:not(:hover) {
-    animation: leave-anim 0.2s forwards;
-    animation-timing-function: ease;
+    background-color: #444444;
+    transform: scale(1.03);
 }
 
 .ico {
-    position: absolute;
+    position: relative;
     left: 50px;
     top: 27px;
 }
@@ -170,13 +161,21 @@ a {
     padding-top: 1px;
 }
 
-div {
+.portWork {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.1s;
+    transition: 0.2s;
     height: 450px;
     margin-top: 100px;
+}
+
+.dif {
+    margin-top: -34px;
+}
+
+.portDif {
+    margin-top: -22px;
 }
 
 div:hover {
@@ -202,48 +201,6 @@ video {
     bottom: 80px;
     left: 20px;
     width: 20vw;
-}
-
-@keyframes anim{
-    from {
-        background-color: #3d3d3d;
-        transform: scale(1);
-    }
-    to {
-        background-color: #444444;
-        transform: scale(1.03);
-    }
-}
-
-@keyframes avatar_anim{
-    from {
-        transform: scale(1);
-    }
-    
-    to {
-        transform: scale(1.05);
-    }
-}
-
-@keyframes leave_avatar_anim{
-    from {
-        transform: scale(1.05);
-    }
-
-    to {
-        transform: scale(1);
-    }
-}
-
-@keyframes leave-anim{
-    from {
-        background-color: #444444;
-        transform: scale(1.03);
-    }
-    to {
-        background-color: #3d3d3d;
-        transform: scale(1);
-    }
 }
 
 @media (max-width: 990px) {
@@ -299,11 +256,13 @@ video {
     }
 
     .button_name{
-        position: static;
         text-align: left;
-        width: 60%;
-        padding-top: 49px;
-        padding-left: 122px;
+        width: 60vw;
+        margin-left: 120px;
+    }
+
+    .dif {
+        margin-top: -21px;
     }
 
     .button_desc {
@@ -314,8 +273,8 @@ video {
         width: 80vw;
     }
 
-    .port_button_name {
-        top: 17px;
+    .portDif {
+        margin-top: -22px;
     }
 
     .teg_name, .mini_desc {
@@ -328,7 +287,7 @@ video {
         bottom: 60px;
     }
 
-    div {
+    .portWork {
         height: 270px;
     }
 }
@@ -350,7 +309,6 @@ video {
 
     .button {
         width: 90vw;
-        margin-top: 40px;
     }
 
     .portfolio_button {
@@ -362,11 +320,9 @@ video {
     }
 
     .button_name{
-        position: static;
         text-align: left;
-        width: 60%;
-        padding-top: 49px;
-        padding-left: 122px;
+        width: 55vw;
+        margin-left: 120px;
     }
 
     .button_desc {
@@ -379,8 +335,8 @@ video {
         padding-bottom: 40px;
     }
 
-    .port_button_name {
-        top: 17px;
+    .portDif {
+        margin-top: -22px;
     }
     
     .pic_desc {
@@ -389,8 +345,8 @@ video {
         width: 50vw;
     }
 
-    div {
-        height: 180px;
+    .portWork {
+        height: 170px;
     }
 }
 
@@ -433,11 +389,9 @@ video {
     }
 
     .button_name{
-        position: static;
         text-align: left;
-        width: 60%;
-        padding-top: 49px;
-        padding-left: 92px;
+        width: 50vw;
+        margin-left: 80px;
     }
 
     .button_desc {
@@ -454,7 +408,7 @@ video {
         padding-bottom: 40px;
     }
 
-    .port_button_name {
-        top: 17px;
+    .portDif {
+        margin-top: -22px;
     }
 }
