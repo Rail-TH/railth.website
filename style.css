@@ -102,7 +102,7 @@ input {
     display: none;
 }
 
-a{
+.button{
     text-decoration: none;
     display: block;
     width: 900px;
@@ -145,12 +145,12 @@ a{
     color: #bbbbbb;
 }
 
-a:hover{
+.button:hover{
     animation: anim 0.2s forwards;
     animation-timing-function: ease;
 }
 
-a:not(:hover) {
+.button:not(:hover) {
     animation: leave-anim 0.2s forwards;
     animation-timing-function: ease;
 }
@@ -169,6 +169,11 @@ div {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.1s;
+}
+
+div:hover {
+    transform: scale(1.02);
 }
 
 video {
