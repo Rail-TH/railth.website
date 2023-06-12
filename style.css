@@ -103,7 +103,6 @@ input {
 }
 
 .button{
-    text-decoration: none;
     display: block;
     width: 900px;
     height: 100px;
@@ -119,6 +118,10 @@ input {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
     cursor: pointer;
     margin-top: 83px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .portfolio_button {
