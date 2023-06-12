@@ -254,7 +254,7 @@ video {
         margin-right: auto;
     }
 
-    a {
+    .button {
         width: 90vw;
     }
     
@@ -294,7 +294,7 @@ video {
         margin-top: 35px;
     }
 
-    a {
+    .button {
         width: 90vw;
     }
 
@@ -327,6 +327,10 @@ video {
         width: 50vw;
         bottom: 60px;
     }
+
+    div {
+        height: 270px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -344,7 +348,7 @@ video {
         margin-top: 35px;
     }
 
-    a {
+    .button {
         width: 90vw;
         margin-top: 40px;
     }
@@ -384,6 +388,10 @@ video {
         font-size: 13px;
         width: 50vw;
     }
+
+    div {
+        height: 180px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -401,7 +409,7 @@ video {
         margin-top: 35px;
     }
 
-    a {
+    .button {
         width: 90vw;
         margin-top: 40px;
     }
