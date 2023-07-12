@@ -147,7 +147,7 @@ a {
     color: #bbbbbb;
 }
 
-.button:hover{
+.button:hover, .themeToggle_button:hover{
     background-color: #444444;
     transform: scale(1.03);
 }
@@ -179,7 +179,7 @@ a {
     margin-top: -22px;
 }
 
-div:hover {
+.portWork:hover {
     transform: scale(1.02);
 }
 
@@ -202,6 +202,28 @@ video {
     bottom: 80px;
     left: 20px;
     width: 20vw;
+}
+
+.themeToggle_div {
+    width: 97%;
+    display: flex;
+    justify-content: end;    
+}
+
+.themeToggle_button {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #3d3d3d;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.themeToggle_ico {
+    width: 56px;
 }
 
 @media (max-width: 990px) {
