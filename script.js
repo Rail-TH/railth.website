@@ -6,7 +6,7 @@ let button = document.querySelectorAll(".button");
 let portButton = document.querySelector(".portButton");
 let buttonName = document.querySelectorAll(".button_name");
 let body = document.querySelector("body")
-let icon = document.querySelector("path")
+let icon = document.querySelectorAll(".path")
 
 // Проверяем, есть ли сохраненная тема в Local Storage
 const savedTheme = localStorage.getItem("theme");
@@ -40,8 +40,9 @@ function applyTheme(theme) {
     buttonName.forEach((buttonName) => {
       buttonName.style.color = "white";
     });
-
-    icon.setAttribute("fill", "#E7E7E7")
+    icon.forEach((icon) => {
+      icon.setAttribute("fill", "#E7E7E7")
+    })
 
     body.style.backgroundImage = "url(img/dark.png)";
   } else {
@@ -61,7 +62,9 @@ function applyTheme(theme) {
       buttonName.style.color = "#141414";
     });
 
-    icon.setAttribute("fill", "black")
+    icon.forEach((icon) => {
+      icon.setAttribute("fill", "#141414")
+    })
 
     body.style.backgroundImage = "url(img/light.png)";
   }

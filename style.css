@@ -219,7 +219,7 @@ video {
     border-radius: 15px;
     height: 100px;
     width: 100px;
-    margin-top: 20px;
+    margin-top: 45px;
     transition: 0.2s;
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.25);
 }
@@ -314,6 +314,10 @@ video {
 
     .portWork {
         height: 270px;
+    }
+
+    .themeToggle_button {
+        margin-top: 1000px;
     }
 }
 
