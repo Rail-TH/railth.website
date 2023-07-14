@@ -316,10 +316,6 @@ video {
     .portWork {
         height: 270px;
     }
-
-    .themeToggle_button {
-        margin-top: 30vh;
-    }
 }
 
 @media (max-width: 400px) {
