@@ -222,6 +222,7 @@ video {
     margin-top: 45px;
     transition: 0.2s;
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.25);
+    z-index: 999;
 }
 
 .themeToggle_ico {
@@ -317,7 +318,7 @@ video {
     }
 
     .themeToggle_button {
-        margin-top: 1000px;
+        margin-top: 80vh;
     }
 }
 
