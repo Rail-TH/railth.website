@@ -6,6 +6,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -29,9 +31,7 @@ body {
 }
 
 .home_page {
-    margin-left: auto;
     margin-top: 24px;
-    margin-right: auto;
     background-color: rgb(32, 32, 32);
     width: 1000px;
     border-radius: 15px;
@@ -114,7 +114,6 @@ input {
     color: #e7e7e7;
     font-size: 32px;
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
     margin-top: 83px;
     transition: 0.2s;
 }
@@ -150,6 +149,7 @@ a {
 .button:hover, .themeToggle_button:hover{
     background-color: #444444;
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 .ico {
