@@ -8,6 +8,10 @@ let buttonName = document.querySelectorAll(".button_name");
 let body = document.querySelector("body")
 let icon = document.querySelectorAll(".path")
 
+$('.single-item').slick({
+  autoplay: true,
+});
+
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
   applyTheme(savedTheme);

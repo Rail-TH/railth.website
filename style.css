@@ -229,6 +229,31 @@ video {
     width: 56px;
 }
 
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.single-item {
+    width: 90%;
+}
+
+.sliderItem {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 30px;
+}
+
 @media (max-width: 990px) {
     .home_page {
         margin-bottom: 0;
