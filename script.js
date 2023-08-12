@@ -7,10 +7,13 @@ let portButton = document.querySelector(".portButton");
 let buttonName = document.querySelectorAll(".button_name");
 let body = document.querySelector("body")
 let icon = document.querySelectorAll(".path")
+let item = document.querySelector(".single-item")
 
-$('.single-item').slick({
-  autoplay: true,
-});
+if (item != null) {
+  $('.single-item').slick({
+    autoplay: true,
+  });
+}
 
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
