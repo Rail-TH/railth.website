@@ -44,10 +44,11 @@ function applyTheme(theme) {
     }
     button.forEach((button) => {
       button.style.backgroundColor = "#3d3d3d";
+      button.style.boxShadow = "2px 2px 15px 5px rgba(0, 0, 0, 0.25)";
     });
 
     buttonName.forEach((buttonName) => {
-      buttonName.style.color = "white";
+      buttonName.style.color = "#f4f4f4";
     });
     icon.forEach((icon) => {
       icon.setAttribute("fill", "#E7E7E7")
@@ -56,12 +57,12 @@ function applyTheme(theme) {
     body.style.backgroundImage = "url(img/dark.png)";
   } 
   else {
-    themeToggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="46" height="46"><path d="M25 4C13.972292 4 5 12.972292 5 24C5 35.027708 13.972292 44 25 44C32.766004 44 39.502746 39.551873 42.810547 33.070312 A 1.50015 1.50015 0 0 0 41.632812 30.896484C32.843153 29.96408 26 22.551125 26 13.5C26 10.888238 26.585599 8.4242842 27.615234 6.1914062 A 1.50015 1.50015 0 0 0 26.355469 4.0664062C25.956343 4.039542 25.505742 4 25 4 z M 24.162109 7.0839844C23.481271 9.1143757 23 11.238294 23 13.5C23 23.235424 29.84153 31.325265 38.960938 33.404297C35.910089 37.92811 30.878133 41 25 41C15.593708 41 8 33.406292 8 24C8 14.880797 15.155394 7.5281505 24.162109 7.0839844 z" fill="#141414" /></svg>';
+    themeToggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="46" height="46"><path d="M25 4C13.972292 4 5 12.972292 5 24C5 35.027708 13.972292 44 25 44C32.766004 44 39.502746 39.551873 42.810547 33.070312 A 1.50015 1.50015 0 0 0 41.632812 30.896484C32.843153 29.96408 26 22.551125 26 13.5C26 10.888238 26.585599 8.4242842 27.615234 6.1914062 A 1.50015 1.50015 0 0 0 26.355469 4.0664062C25.956343 4.039542 25.505742 4 25 4 z M 24.162109 7.0839844C23.481271 9.1143757 23 11.238294 23 13.5C23 23.235424 29.84153 31.325265 38.960938 33.404297C35.910089 37.92811 30.878133 41 25 41C15.593708 41 8 33.406292 8 24C8 14.880797 15.155394 7.5281505 24.162109 7.0839844 z" fill="#393939" /></svg>';
     themeToggle.style.backgroundColor = "white";
     homePage.style.backgroundColor = "white";
     if (mainName != null) {
-      mainName.style.color = "#141414";
-      tegName.style.color = "#141414";
+      mainName.style.color = "#393939";
+      tegName.style.color = "#393939";
     }
     if (portButton != null) {
       portButton.style.backgroundColor=("white");
@@ -69,14 +70,15 @@ function applyTheme(theme) {
     }
     button.forEach((button) => {
       button.style.backgroundColor = "white";
+      button.style.boxShadow = "2px 2px 15px 5px rgba(201, 201, 201, 0.25)";
     });
 
     buttonName.forEach((buttonName) => {
-      buttonName.style.color = "#141414";
+      buttonName.style.color = "#393939";
     });
 
     icon.forEach((icon) => {
-      icon.setAttribute("fill", "#141414")
+      icon.setAttribute("fill", "#393939")
     })
 
     body.style.backgroundImage = "url(img/light.png)";
