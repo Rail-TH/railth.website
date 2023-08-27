@@ -30,6 +30,12 @@ body {
     transition: 0.1s;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
 .home_page {
     margin-top: 24px;
     background-color: rgb(32, 32, 32);
