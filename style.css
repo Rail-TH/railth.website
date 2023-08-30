@@ -372,10 +372,6 @@ video {
         width: 90vw;
     }
 
-    .portfolio_button {
-        margin-top: -80px;
-    }
-
     .teg_name {
         width: 20vw;
     }
@@ -439,10 +435,6 @@ video {
 
     .teg_name, .mini_desc {
         margin-left: 130px;
-    }
-
-    .portfolio_button {
-        margin-top: -80px;
     }
 
     .teg_name {
