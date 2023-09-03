@@ -10,7 +10,7 @@ $(document).ready(function() {;
     applyTheme(savedTheme);
   }
   $(".themeToggle_button").click(function() {
-    var currentTheme = localStorage.getItem("theme");
+    let currentTheme = localStorage.getItem("theme");
     if (currentTheme === "dark") {
       applyTheme("light");
     } else {
