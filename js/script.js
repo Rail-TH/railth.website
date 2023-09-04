@@ -29,9 +29,9 @@ $(document).ready(function() {;
       if ($(".portButton").length > 0) {
         $(this).css("background-color", "#3d3d3d").css("color", "white");
       }
-      $(".button").each(function {
+      $(".button").each(function() {
         $(this).css("background-color", "#3d3d3d").css("box-shadow", "2px 2px 15px 5px rgba(0, 0, 0, 0.25)");
-      })
+      });
       $(".button_name").each(function() {
         $(this).css("color", "#f4f4f4");
       });
@@ -51,7 +51,7 @@ $(document).ready(function() {;
       if ($(".portButton").length > 0) {
         $(this).css("background-color", "white").css("color", "#141414");
       }
-      $(".button").each(function {
+      $(".button").each(function() {
         $(this).css("background-color", "white").css("box-shadow", "2px 2px 15px 5px rgba(201, 201, 201, 0.25)");
       })
       $(".button_name").each(function() {
