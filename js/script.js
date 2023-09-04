@@ -29,15 +29,15 @@ $(document).ready(function() {;
       if ($(".portButton").length > 0) {
         $(this).css("background-color", "#3d3d3d").css("color", "white");
       }
-      $(function() {
-        $(".button").css("background-color", "#3d3d3d").css("box-shadow", "2px 2px 15px 5px rgba(0, 0, 0, 0.25)");
-      });
+      $(".button").each(function {
+        $(this).css("background-color", "#3d3d3d").css("box-shadow", "2px 2px 15px 5px rgba(0, 0, 0, 0.25)");
+      })
       $(".button_name").each(function() {
         $(this).css("color", "#f4f4f4");
       });
-      $(function() {
-        $(".path").attr("fill", "#E7E7E7");
-      });
+      $(".path").each(function() {
+        $(this).attr("fill", "#E7E7E7");
+      })
       $("body").css("background-image", "url(img/dark.png)");
     } 
     else {
@@ -51,15 +51,15 @@ $(document).ready(function() {;
       if ($(".portButton").length > 0) {
         $(this).css("background-color", "white").css("color", "#141414");
       }
-      $(function() {
-        $(".button").css("background-color", "white").css("box-shadow", "2px 2px 15px 5px rgba(201, 201, 201, 0.25)");
+      $(".button").each(function {
+        $(this).css("background-color", "white").css("box-shadow", "2px 2px 15px 5px rgba(201, 201, 201, 0.25)");
+      })
+      $(".button_name").each(function() {
+        $(this).css("color", "#393939");
       });
-      $(function() {
-        $(".button_name").css("color", "#393939");
-      });
-      $(function() {
-        $(".path").attr("fill", "#393939");
-      });
+      $(".path").each(function() {
+        $(this).attr("fill", "#393939");
+      })
       $("body").css("background-image", "url(img/light.png)");
     }
     localStorage.setItem("theme", theme);
