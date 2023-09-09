@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 15px;
+    background-color: #1f1f1f;
+}
+    
+::-webkit-scrollbar-track {
+    background-color: #1f1f1f;
+}
+    
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #3d3d3d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #141414;
+    transition: 0.1s;
+}
