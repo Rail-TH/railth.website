@@ -903,6 +903,10 @@ video {
   width: 100%;
 }
 
+.w-\[40vw\] {
+  width: 40vw;
+}
+
 .min-w-\[90\%\] {
   min-width: 90%;
 }
@@ -2649,12 +2653,32 @@ video {
     width: 100vw;
   }
 
+  .max-firstbreak\:w-\[98\%\] {
+    width: 98%;
+  }
+
+  .max-firstbreak\:w-\[\] {
+    width: ;
+  }
+
   .max-firstbreak\:min-w-\[95vw\] {
     min-width: 95vw;
   }
 
   .max-firstbreak\:min-w-full {
     min-width: 100%;
+  }
+
+  .max-firstbreak\:min-w-\[\] {
+    min-width: ;
+  }
+
+  .max-firstbreak\:min-w-\[98\%\] {
+    min-width: 98%;
+  }
+
+  .max-firstbreak\:min-w-\[98\%\[98\%\]\] {
+    min-width: 98%[98%];
   }
 }
 
